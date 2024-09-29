@@ -9,9 +9,9 @@
 4- The steps I took to clone my repository was to first download github for desktop, open it and sign into my account, once there I was presented with the option to clone a repository, saying yes led me to a list of the repositories I had, I chosse the one I recently made. Clicking on it and confirming my selection, the repository was cloned and a file for it was created in my desktop
 
 
-#About Me
+# About Me
 
-##My Hobbies
+## My Hobbies
 
 * **Drawing** is something I'm trying to get into, I started out doing traditional drawing and eventually changed to digital drawing with my recent acquisition of a tablet. It has a been challenge swithching but I think I'll be able to improve to satisfactory level in a few weeks.
 
@@ -20,7 +20,7 @@
 * **Phone repairing** is something i got into not too long ago and it has been a great experience. The sense of taking a broken product and restoring it back to a functionning state gives me a rewarding sensation, more so if I'm able to sell it and get a profit.
 
 
-##My Favorite Websites
+## My Favorite Websites
 
 * **[YouTube]**(www.youtube.com) is an online video sharing platform where anyone in the world can record and upload a video onto the website. With the time the website has been up and the amount of people posting videos, the website now has an infinite amount of videos for anyone to see, you can find any type of video that aligns with your preferences. In my case, I watch gaming and animation videos, or tutorials on different things if I need help, the website in general is a great source of entertainment and is a great pass time.
 
