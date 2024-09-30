@@ -1,6 +1,6 @@
+***mermaid
 
-
-Flowchart TD
+flowchart TD
 	A([Start])-->B[(Computer Chooses Number Between 1-100])
 	B --> C([Ask Player to Guess a Number Between 1 - 100])
 	C --> D([Player Inserts Number])
@@ -12,5 +12,6 @@ Flowchart TD
 	J --> B
 	I --Yes--> K([Guess Lower!])
 	K --> B
+***
 
 
