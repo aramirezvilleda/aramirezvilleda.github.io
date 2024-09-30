@@ -1,6 +1,6 @@
 
 
-flowchartTD
+Flowchart TD
 	A([Start])-->B[(Computer Chooses Number Between 1-100])
 	B --> C([Ask Player to Guess a Number Between 1 - 100])
 	C --> D([Player Inserts Number])
