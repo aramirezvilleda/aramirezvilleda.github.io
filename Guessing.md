@@ -2,25 +2,31 @@
 
 graph TD;
 	A([Start])  ----> B([Computer chooses number between 1-100]);
-    B ----> C([Computer instructs: **_Choose a number between 1-100_**]);
+    B ----> C([Game instructs: **_Choose a number between 1-100_**]);
     C -- The player inserts their number --> D([Computer compares the numbers]);
     D ----> E([Do they match?]);
 
-    E -- Yes --> F([Computer Displays: **_CORRECT_**!]);
-    F ----> G([Computer asks: **_TRY AGAIN?_**]);
+    E -- Yes --> F([Game Displays: **_CORRECT_**!]);
+    F ----> G([Game asks: **_TRY AGAIN?_**]);
     G -- Yes --> B;
     G -- No --> H([End]);
 
     E -- No --> I([Is the player's number higher than the computers'?]);
-    I -- Yes --> J([Computer instructs: **_GUESS LOWER!_**]);
+    I -- Yes --> J([Game instructs: **_GUESS LOWER!_**]);
     J ----> C;
-    I -- No --> K([Computer instructs: **_GUESS HIGHER!_**]);
+    I -- No --> K([Game instructs: **_GUESS HIGHER!_**]);
     K ----> C;
 
 ```
 
-The first batch of lines lay out the general process that will happen when the game starts. The computer chooses a number between 1 - 100, asks the player to choose a number in the same range and type it in, and finally the computer will check if they match.
+When the game starts, the computer will choose a random number between 1 and 100.
 
-The second batch of lines are for the scenario of the player guessing the number correctly, the game will tell them they are correct, and ask if they wnat to play again, if the player says no, the game ends, if they say yes then the whole process starts again.
+Then the game will tell the player to choose a number in the same range.
 
-The last batch are for when the player guesses wrong, and depending if the number the player chose is higher or lower than the computers', the player will be informed to guess lower or higher and the player would then have to type their number again.
+Once the players inserts their number, the computer will compare both numbers to see if they match.
+
+* If they do, the game will tell the player they are correct and ask if they want to play again. If they don't want to, the game ends. If they do, they are the whole process starts over.
+
+* If the numbers don't match, the computer will see if the player's num,ber is higher or lower that the computer's.
+	* If it's higher, the game will tell the player to guess a number lower than the one before and are asked to type it in again.
+	* If it's lower, than the payer is told to choose a number higher than the before, and are asked to type in their number again.
